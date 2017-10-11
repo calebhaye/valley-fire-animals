@@ -1,8 +1,8 @@
-# Valley Fire Animals
+# Sonoma County Fires Animals
 
 ## Public Site
 
-http://www.ValleyFireAnimals.com
+http://animals.sonomafireinfo.com
 
 ## Contributing
 

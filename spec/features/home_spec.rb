@@ -3,7 +3,7 @@ require 'rails_helper'
 describe "Home Page" do
   it "renders" do
     visit "/"
-    expect(page).to have_content "Valley Fire"
+    expect(page).to have_content "Sonoma County Fires"
     expect(page).to have_content "Lost & Found"
   end
 

@@ -79,9 +79,9 @@ Rails.application.configure do
 
   Rails.application.config.middleware.use ExceptionNotification::Rack,
     :email => {
-      :email_prefix => "[Valley Fire Animals] ",
-      :sender_address => %{"Valley Fire Errors" <mc-valley-fire-animals@oak.homeunix.org>},
-      :exception_recipients => %w{mc-valley-fire-animals@oak.homeunix.org},
+      :email_prefix => "[Sonoma County Fires Animals] ",
+      :sender_address => %{"Sonoma County Fires Errors" <me@caleb.org>},
+      :exception_recipients => %w{me@caleb.org},
       :smtp_settings => {
         :address => 'postoffice-oak.homeunix.org',
         :port => 26,
